@@ -6,12 +6,12 @@
  * Time: 12:51 PM
  */
 
-namespace LimoCode\LaravelRestfulApi\Controllers;
+namespace Codeilia\LaravelRestfulApi\Controllers;
 
 
 use App\Http\Controllers\Controller;
 use App\User;
-use LimoCode\LaravelRestfulApi\Traits\Respondable;
+use Codeilia\LaravelRestfulApi\Traits\Respondable;
 
 //use Illuminate\Support\Facades\Response;
 

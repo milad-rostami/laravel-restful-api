@@ -1,5 +1,5 @@
 {
-    "name": "limocode/laravel-restful-api",
+    "name": "codeilia/laravel-restful-api",
     "description": "a package that provide restful api with json responses",
     "authors": [
         {
@@ -10,16 +10,16 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "LimoCode\\LaravelRestfulApi\\" : "src/"
+            "Codeilia\\LaravelRestfulApi\\" : "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LimoCode\\LaravelRestfulApiProvider"
+                "Codeilia\\LaravelRestfulApiProvider"
             ],
             "aliases": {
-                "RestApi": "LimoCode\\LaravelRestfulApiFacade"
+                "RestApi": "Codeilia\\LaravelRestfulApiFacade"
             }
         }
     }

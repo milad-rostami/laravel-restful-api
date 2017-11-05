@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Codeilia\LaravelRestfulApi;
 
 use Illuminate\Support\ServiceProvider;
 

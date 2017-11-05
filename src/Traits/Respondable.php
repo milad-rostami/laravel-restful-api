@@ -1,6 +1,6 @@
 <?php
 
-namespace LimoCode\LaravelRestfulApi\Traits;
+namespace Codeilia\LaravelRestfulApi\Traits;
 
 
 use Illuminate\Contracts\Pagination\Paginator;

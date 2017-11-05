@@ -1,6 +1,6 @@
 <?php
 
-namespace LimoCode\LaravelRestfulApi\Transformers;
+namespace Codeilia\LaravelRestfulApi\Transformers;
 
 
 Abstract class Transformer
