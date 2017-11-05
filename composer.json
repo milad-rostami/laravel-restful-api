@@ -1,0 +1,26 @@
+{
+    "name": "limocode/laravel-restful-api",
+    "description": "a package that provide restful api with json responses",
+    "authors": [
+        {
+            "name": "milad rostami",
+            "email": "milad.rostami.dev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LimoCode\\LaravelRestfulApi" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LimoCode\\LaravelRestfulApiProvider"
+            ],
+            "aliases": {
+                "RestApi": "LimoCode\\LaravelRestfulApiFacade"
+            }
+        }
+    }
+}
