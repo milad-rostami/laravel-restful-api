@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codeilia\\LaravelRestfulApiProvider"
+                "Codeilia\\LaravelRestfulApi\\LaravelRestfulApiProvider"
             ],
             "aliases": {
-                "RestApi": "Codeilia\\LaravelRestfulApiFacade"
+                "RestApi": "Codeilia\\LaravelRestfulApi\\LaravelRestfulApiFacade"
             }
         }
     }
